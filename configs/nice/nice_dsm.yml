@@ -1,0 +1,16 @@
+training:
+  batch_size: 128
+  n_epochs: 100
+  algo: "dsm"
+data:
+  dataset: "MNIST"
+  image_size: 28
+  channels: 1
+  noise_sigma: 0.0
+model:
+  hidden_size: 1000
+  num_layers: 5 # only 2 or 5
+optim:
+  weight_decay: 0.00
+  optimizer: "Adam"
+  lr: 0.001

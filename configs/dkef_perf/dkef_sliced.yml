@@ -1,0 +1,19 @@
+training:
+  batch_size: 200
+  fval_batch_size: 100
+  n_epochs: 5
+  patience: 200
+  algo: "sliced"
+data:
+  dataset: "HighDim"
+model:
+  M: 200
+  num_kernels: 3
+  hidden_dim: 30
+  add_skip: True
+  alpha_param: False
+  train_Z: True
+optim:
+  weight_decay: 0.000
+  optimizer: "Adam"
+  lr: 0.01

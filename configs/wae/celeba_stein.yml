@@ -1,0 +1,23 @@
+training:
+  batch_size: 128
+  n_epochs: 3000
+  n_iters: 100000
+  algo: "stein"
+
+data:
+  dataset: "CELEBA"
+  image_size: 64
+  channels: 3
+
+model:
+  n_particles: 1
+  lam: 10
+  z_dim: 32
+  eps_dim: 32
+  nef: 64
+  ndf: 64
+
+optim:
+  weight_decay: 0.000
+  optimizer: "RMSProp"
+  lr: 0.0001
