@@ -24,10 +24,10 @@ python main.py --runner [runner name] --config [config file]
 
 Here `runner name` is one of the following:
 
-- `DKEFRunner`. This corresponds to experiments of deep kernel exponential families
-- `NICERunner`. This corresponds to the sanity checking experiment of training a NICE model.
+- `DKEFRunner`. This corresponds to experiments on deep kernel exponential families.
+- `NICERunner`. This corresponds to the sanity check experiment of training a NICE model.
 - `VAERunner`. Experiments on VAEs.
-- `WAERunner`. Experiments on Wasserstein Auto-Encoders (WAEs)
+- `WAERunner`. Experiments on Wasserstein Auto-Encoders (WAEs).
 
 and `config file` is the directory of some YAML file in `configs/`.
 
